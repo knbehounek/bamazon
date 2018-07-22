@@ -12,10 +12,10 @@ var connection = mysql.createConnection({
 
 function start() {
   //prints the items for sale and their details
-  connection.query('SELECT * FROM Products', function (err, res) {
+  connection.query('SELECT * FROM products', function (err, res) {
     if (err) throw err;
 
-    console.log('Welcom to Bamazon')
+    console.log('Welcome to Bamazon')
     console.log('-------------------------------------')
 
     for (var i = 0; i < res.length; i++) {
