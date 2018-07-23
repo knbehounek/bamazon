@@ -63,6 +63,7 @@ function start() {
         ], function (err, result) {
           if (err) throw err;
           console.log("Thanks! Your total is $" + grandTotal.toFixed(2) + ". Plan on your item(s) being shipped to you in 3-5 business days.");
+          reprompt();
         });
 
         connection.query("SELECT * FROM Departments", function (err, deptRes) {
@@ -88,7 +89,7 @@ function start() {
         console.log("Sorry, there's not enough in stock!");
       }
 
-      reprompt();
+      
     })
   })
 }
@@ -107,5 +108,4 @@ function reprompt() {
     }
   });
 }
-
 start();
