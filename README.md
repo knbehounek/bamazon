@@ -26,6 +26,7 @@ The project had the goal to create an online store system like Amazon using Node
       b) If there is not enough of the product, it will tell the user that there isn't enough.
       c) If the purchase goes through, it updates the quantity of the product to reflect the purchase.
       d) It will also update the product sales in the department table.
+<img src="App%20Photos/bamazonCustomer.png" width="800">
 
 -----------------------
 
@@ -47,7 +48,7 @@ The project had the goal to create an online store system like Amazon using Node
     * If the manager selects `Add a New Product`, it allows the manager to add a new product to the store.
 
     * If the manager selects `End the Session`, it ends the session and doesn't go back to the menu.
-
+<img src="App%20Photos/bamazonManaager.png" width="800">
 -----------------------
 
 3. `bamazonSupervisor.js`
@@ -62,6 +63,7 @@ The project had the goal to create an online store system like Amazon using Node
     * If the manager selects `Create New Department`, it allows the manager to create a new department and input current overhead costs and product sales. If there are none, by default it will set at 0.
 
     * If the manager selects `End the Session`, it ends the session and doesn't go back to the menu.
+<img src="App%20Photos/bamazonSupervisor.png" width="800">
 
 # Technologies used
 1) Node.js
